@@ -1,15 +1,12 @@
+//+build ignore
+
 package main
 
-//go:generate go run ./gen-main.go
-
 import (
-	pkg "github.com/dcw303/crenshaw-go/chapter01"
+	pkg "github.com/dcw303/crenshaw-go/chapter02"
 	"github.com/dcw303/crenshaw-go/util"
 	"github.com/nsf/termbox-go"
 )
-
-// Import the chapter you want to run:
-// "github.com/dcw303/crenshaw-go/chapter02"
 
 func main() {
 	defer termbox.Close()
